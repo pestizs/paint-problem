@@ -18,7 +18,7 @@ namespace paint_problem
             double wall1 = (12 * 8) * 2;  //192
             double wall2 = (10 * 8) * 2;   //160
             double finalPaint;
-            finalPaint = (ceiling + wall1 + wall2 - (window1 + window2)) / paintPerGallon;    //325 / 100 = 3.25
+            finalPaint = (ceiling + wall1 + wall2 - (window1 + window2)) / paintPerGallon;
             Console.WriteLine(finalPaint);
             Console.ReadLine();
         }
